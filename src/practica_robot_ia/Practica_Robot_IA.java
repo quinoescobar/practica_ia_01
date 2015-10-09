@@ -6,6 +6,8 @@
 package practica_robot_ia;
 
 import java.awt.BorderLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.JPanel;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -38,6 +40,22 @@ public class Practica_Robot_IA extends JFrame {
         
         JMenuItem elementoCrear = new JMenuItem("Crear");
         menuArchivo.add(elementoCrear);
+        
+        JMenuItem elementoSalir = new JMenuItem("Salir");
+        menuArchivo.add(elementoSalir);
+        
+        elementoSalir.addActionListener(
+        
+        new ActionListener()
+        {
+            @Override
+            public void actionPerformed (ActionEvent evento)
+            {
+                System.exit(0);
+            }
+        }
+        
+        );
         
         JMenuBar barra = new JMenuBar();
         setJMenuBar(barra);

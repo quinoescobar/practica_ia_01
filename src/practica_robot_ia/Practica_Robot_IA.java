@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package practica_robot_ia;
 
 import java.awt.BorderLayout;
@@ -15,10 +11,7 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
-/**
- *
- * @author quinoEscobar Erickazo
- */
+
 public class Practica_Robot_IA extends JFrame {
 
     

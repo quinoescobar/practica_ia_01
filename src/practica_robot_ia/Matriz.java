@@ -14,5 +14,11 @@ public class Matriz {
         this.M = m;
         this.N = n;
         this.isRandom = b;
+        
+        Matriz objetoMatriz = new Matriz(10,10,true);
+        
+        
+        
+        
     }
 }

@@ -2,6 +2,7 @@
 package practica_robot_ia;
 
 import java.awt.BorderLayout;
+import java.awt.Graphics2D;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JPanel;
@@ -54,6 +55,8 @@ public class Practica_Robot_IA extends JFrame {
         setJMenuBar(barra);
         barra.add(menuArchivo);
         
+        
+        //interfaz.hacerRecuadro((Graphics2D) g, largo, largo);
     }
     
     
